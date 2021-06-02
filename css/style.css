@@ -1,0 +1,230 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 30px;
+  border-color: #f26b38;
+  border-style: solid;
+}
+
+.header .header-navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header .header-logo img {
+  width: 150px;
+}
+.header .header-navigation .header-navigation-list {
+  list-style-type: none;
+  display: flex;
+  /* margin-top: 30px; */
+  align-items: center;
+}
+.header
+  .header-navigation
+  .header-navigation-list
+  .header-navigation-list-item {
+  margin: 0px 30px;
+}
+.header
+  .header-navigation
+  .header-navigation-list
+  .header-navigation-list-item
+  .header-navigation-list-item-link {
+  text-decoration: none;
+  color: #363636;
+  font-family: "Roboto mono";
+  font-size: 13px;
+}
+
+.header
+  .header-navigation
+  .header-navigation-list
+  .header-navigation-list-item
+  .header-navigation-list-item-link.active {
+  color: #f26b38;
+}
+
+.header
+  .header-navigation
+  .header-navigation-list
+  .header-navigation-list-item
+  .header-navigation-list-item-link:hover {
+  color: #f26b38;
+}
+.header
+  .header-navigation
+  .header-navigation-list
+  .header-navigation-list-item
+  .header-navigation-list-item-link--bordered {
+  border: 1px solid #ddd;
+  padding: 0 30px;
+  line-height: 40px;
+  display: inline-block;
+}
+
+.header
+  .header-navigation
+  .header-navigation-list
+  .header-navigation-list-item
+  .header-navigation-list-item-link--bordered:hover {
+  background-color: #f26b38;
+  color: #ffffff;
+}
+
+.main .about-me {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.main .about-me_name {
+  font-family: "Roboto mono";
+  font-size: 60px;
+  color: #141414;
+  text-transform: uppercase;
+  margin: 150px 0px 0px 0px;
+}
+
+.main .about-me .about-me_major {
+  font-family: "Roboto mono";
+  font-size: 13px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 195px 30px 0px 30px;
+}
+.footer .copyright .copyright-text {
+  font-family: "Roboto mono";
+  font-size: 11px;
+  color: #999999;
+}
+.footer .socials-list {
+  flex-direction: row;
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.footer .socials-list .socials-list-item {
+  margin-left: 20px;
+}
+.footer .socials-list .socials-list-item .socials-list-item-link {
+  text-decoration: none;
+}
+
+.footer
+  .socials-list
+  .socials-list-item
+  .socials-list-item-link
+  .ion-social-dribbble:before {
+  color: #000000;
+}
+
+.footer
+  .socials-list
+  .socials-list-item
+  .socials-list-item-link
+  .ion-social-twitter:before {
+  color: #000000;
+}
+
+.footer
+  .socials-list
+  .socials-list-item
+  .socials-list-item-link
+  .ion-social-github:before {
+  color: #000000;
+}
+
+.footer
+  .socials-list
+  .socials-list-item
+  .socials-list-item-link
+  .ion-social-instagram:before {
+  color: #000000;
+}
+
+/* BLOG STYLES BEGIN */
+.main .main-video-section {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.main .main-video-section #video {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* BLOG STYLES END */
+
+/* Resume  -  About Me Bio */
+.about-bio {
+  max-width: 80%;
+  margin: 0 auto;
+  font-family: "Roboto mono";
+}
+.about-bio__title {
+  text-transform: uppercase;
+  position: relative;
+}
+.about-bio__title:before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 115px;
+  height: 6px;
+  background-color: yellow;
+  bottom: 4px;
+  z-index: -1;
+}
+.about-bio-main {
+  display: flex;
+}
+.about-bio-main__image {
+}
+.about-bio-main__image-wrapper {
+  border-radius: 50%;
+  background-color: #fff;
+  display: inline-block;
+  overflow: hidden;
+}
+.about-bio-main__image-wrapper img {
+  border-radius: 100px;
+}
+
+.about-bio-main__content {
+  padding-left: 40px;
+}
+.about-bio-main__content p {
+  margin-top: 0;
+}
+.about-bio-main__content-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.about-bio-main__content-info p {
+  width: 33%;
+}
+
+.about-bio-main__content-info p .key {
+  color: red;
+}
+.about-bio-main__content-cta {
+  display: inline-block;
+  background-color: #f26b38;
+  color: #fff;
+  padding: 0 35px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all ease-in-out 0.2s;
+}
+.about-bio-main__content-cta:hover {
+  background-color: orange;
+  color: #fff;
+  transition: all ease-in-out 0.2s;
+}
